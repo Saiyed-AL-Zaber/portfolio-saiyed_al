@@ -47,6 +47,7 @@ p{
 }
 .banner-section{
     display: flex;
+    align-items: center;
     background: url(images/third-bg.jpg) no-repeat center fixed;
     background-size: cover;
     padding: 30px 50px;
@@ -102,3 +103,79 @@ p{
     transition: 0.1s;
 }
 /* experiences-section-start-here */
+.experiences-section{
+    padding: 100px 10px;
+    background:linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(images/first-bg.jpg) no-repeat center scroll;
+    background-size: cover;
+}
+#experienes-heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: #ff447c;
+    text-transform: capitalize;
+}
+.experiences-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.experiences-left-sec{
+    width: 43%;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding:50px 30px;
+    height: 450px;
+    background-color: white;
+    border-left: 5px solid rgb(255, 91, 118);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 5px 7px 40px rgb(190, 190, 190);
+}
+.experiences-right-sec{
+    width: 43%;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-right: 20px;
+    padding: 50px 30px;
+    height: 450px;
+    background-color: white;
+    border-left: 5px solid rgb(56, 119, 255);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 5px 7px 40px rgb(190, 190, 190);
+}
+.experiences-right-sec .card-sub{
+    color: rgb(56, 119, 255);
+} 
+.card-header{
+    font-size: 40px;
+    color: rgb(70, 70, 70);
+}
+.card-sub{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff248a;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3a3a3a;
+}
+/* footer-section-start-here */
+.footer-section{
+    background-color: #FBFBFB;
+    padding:20px 50px;
+    text-align: center;
+}
+.footer-section p{
+    font-size: 18px;
+    color: #353535;
+    font-weight: 500;
+    line-height: 1;
+}
+.copyright-icon{
+    font-size: 36px;
+    vertical-align: middle;
+}
